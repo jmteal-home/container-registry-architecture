@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / temp
+*.tmp
+*.bak
+build/
+dist/
+
+# Node (if using markdown tooling)
+node_modules/
+.npm
+
+# Python (if using scripts)
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Generated outputs — don't commit Word docs back to this repo
+*.docx
+*.pdf
+
+# Diagrams source files generated elsewhere
+diagrams/*.png
+diagrams/*.svg
+!diagrams/*.md
+!diagrams/README.md

@@ -1,0 +1,13 @@
+# Normalise line endings to LF on commit (cross-platform consistency)
+* text=auto eol=lf
+
+# Markdown — treat as text, use linguist for stats
+*.md text linguist-documentation=true
+
+# Diagrams
+*.svg text
+*.png binary
+
+# Scripts
+*.sh text eol=lf
+*.py text eol=lf

@@ -1,0 +1,22 @@
+# CODEOWNERS — require review from responsible team for each area
+# GitHub syntax: path/pattern  @org/team-or-username
+
+# All documents require Platform Engineering review by default
+*                                           @your-org/platform-engineering
+
+# Security-sensitive documents require Security team co-review
+docs/phase-1-foundations/DOC-003_*          @your-org/platform-engineering @your-org/security
+docs/phase-3-entitlement/DOC-009_*          @your-org/platform-engineering @your-org/security
+docs/phase-4-supply-chain/DOC-012_*         @your-org/platform-engineering @your-org/security
+docs/phase-4-supply-chain/DOC-013_*         @your-org/platform-engineering @your-org/security
+docs/phase-6-operations/DOC-019_*           @your-org/platform-engineering @your-org/security
+
+# Governance docs require Architecture Review Board sign-off
+docs/phase-7-governance/                    @your-org/platform-engineering @your-org/architecture-board
+
+# ADRs — any change requires ARB review
+docs/phase-7-governance/DOC-023_*           @your-org/architecture-board
+
+# CONTRIBUTING and process docs
+CONTRIBUTING.md                             @your-org/platform-engineering
+.github/                                    @your-org/platform-engineering
